@@ -5,10 +5,12 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "alembic>=1.16.5",
     "asyncpg>=0.30.0",
     "dotenv>=0.9.9",
     "openai>=1.105.0",
     "psutil>=7.0.0",
+    "psycopg2>=2.9.10",
     "pydantic-settings>=2.10.1",
     "pydentic>=0.0.1.dev3",
     "sqlalchemy>=2.0.43",
